@@ -206,3 +206,181 @@ footer {
 .socialmedia a {
     text-decoration: none;
 }
+
+/* CONTACT PAGE */
+
+.company-details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    align-items: start;
+}
+
+.company-details iframe {
+    width: 100%;
+    height: 300px;
+    border: 0;
+}
+
+.employees {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.employees figure {
+    flex: 1 1 200px;
+    text-align: center;
+}
+
+.employees img {
+    width: 100%;
+    max-width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.employees figcaption {
+    font-weight: bold;
+    padding: 10px;
+}
+
+/* CONTACT FORM */
+
+.contact-form {
+    background-color: var(--accent1-color);
+    margin-top: 20px;
+    padding: 35px;
+    border-radius: 8px;
+}
+
+.contact-form h2 {
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.contact-form form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: grid;
+    gap: 12px;
+}
+
+.contact-form label {
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    font-family: var(--body-font);
+    font-size: 1rem;
+    background-color: white;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form fieldset {
+    margin: 15px 0;
+    padding: 18px;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    background-color: white;
+}
+
+.contact-form legend {
+    font-weight: bold;
+    padding: 0 8px;
+}
+
+.contact-form fieldset label {
+    display: block;
+    margin: 10px 0;
+    font-weight: normal;
+}
+
+.contact-form fieldset input[type="radio"] {
+    width: auto;
+    margin-right: 8px;
+}
+
+.contact-form input[type="checkbox"] {
+    width: auto;
+    margin-right: 8px;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 14px;
+    margin-top: 10px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.05rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    opacity: 0.85;
+}
+
+/* TRIPS PAGE */
+
+.trips {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.trips article {
+    text-align: center;
+    padding: 15px;
+    background-color: var(--accent1-color);
+}
+
+.trips article img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.trips article h2 {
+    margin: 10px 0;
+}
+
+/* HOME PAGE HERO CONTENT */
+
+.hero-content {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    right: 30px;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+}
+
+.hero-content h1 {
+    color: white;
+}
+
+.hero-content a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
