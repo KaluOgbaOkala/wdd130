@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: grid;
+    gap: 10px;
+}
+
+input,
+textarea,
+select,
+button {
+    padding: 10px;
+    font-size: 1rem;
+}
+
+textarea {
+    min-height: 100px;
+}
+
+button {
+    margin-top: 10px;
+    cursor: pointer;
+}
