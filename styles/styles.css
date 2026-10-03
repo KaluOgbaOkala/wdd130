@@ -4,30 +4,84 @@
     box-sizing: border-box;
 }
 
-nav {
-    background-color: #eee;
-    padding: 1rem;
-}
-
-nav a {
+body {
+    font-family: Arial, Helvetica, sans-serif;
     color: #333;
-    padding: 1rem;
-    display: block;
+    line-height: 1.6;
 }
 
-h1 {
-    color: #333;
-}
+/* PAGE WIDTH */
 
-main {
-    max-width: 840px;
+header,
+.grid,
+footer {
+    max-width: 840;
     margin: 0 auto;
 }
 
+/* NAVIGATION */
+
+nav {
+    background-color: steelblue;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav a {
+    display: block;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+nav a:hover {
+    color: #333;
+    background-color: #fff;
+}
+
+/* HEADING */
+
+h1 {
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5rem;
+}
+
+/* GRID LAYOUT */
+
+.grid {
+    display: grid;
+    align-items: center;
+}
+
+/* MAIN */
+
+main {
+    grid-column: 2 / 3;
+    margin: 1rem;
+}
+
+main img {
+    width: 120px;
+    height: auto;
+    border: 1px solid #333;
+    padding: 4px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 0.2);
+    float: right;
+}
+
+/* ASIDE */
+
 aside {
-    width: 20em;
+    width: 20rem;
     text-align: center;
     position: relative;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
 }
 
 aside.box {
@@ -46,26 +100,13 @@ aside img {
     height: auto;
 }
 
-main img {
-    width: 120px;
-    height: auto;
-    border: 1px solid #333;
-    padding: 4px;
-    box-shadow: 0 0 10px rgb(0 0 0 / 0.2);
-    float: right;
-}
+/* PARAGRAPHS */
 
 p {
     padding: 0;
 }
 
-footer {
-    margin-top: 15px;
-    border-top: 1px solid #000;
-    text-align: center;
-}
-
-/* Class Selectors */
+/* BOX */
 
 .box {
     margin: 1rem;
@@ -73,4 +114,13 @@ footer {
     padding: 1rem;
     background-color: #ddd;
     color: #000;
+}
+
+/* FOOTER */
+
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
+    padding: 1rem;
 }
