@@ -1,0 +1,924 @@
+[1mdiff --git a/wwr/about.html b/wwr/about.html[m
+[1mindex ee602d6..75c0328 100644[m
+[1m--- a/wwr/about.html[m
+[1m+++ b/wwr/about.html[m
+[36m@@ -6,7 +6,7 @@[m
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">[m
+ [m
+     <meta name="description"[m
+[31m-      content="Learn about our white water rafting company, our history, mission, and exciting adventures.">[m
+[32m+[m[32m      content="Contact Adventure Rapids Rafting for information, reservations, questions, and suggestions.">[m
+ [m
+     <meta name="author" content="Kalu Ogba Okala">[m
+ [m
+[36m@@ -18,7 +18,6 @@[m
+ <body>[m
+ [m
+     <header>[m
+[31m-[m
+         <img src="images/rafting-logo.jpg" alt="Adventure Rapids Rafting logo">[m
+ [m
+         <nav>[m
+[36m@@ -29,98 +28,108 @@[m
+                 <li><a href="contact.html">Contact Us</a></li>[m
+             </ul>[m
+         </nav>[m
+[31m-[m
+     </header>[m
+ [m
+     <main>[m
+ [m
+[31m-        <div class="hero">[m
+[31m-[m
+[31m-            <img src="images/rafting-hero.jpg" alt="People rafting through white water">[m
+[32m+[m[32m        <section class="contact-info">[m
+[32m+[m[32m            <h1>Contact Us</h1>[m
+ [m
+[31m-            <h1>Adventure Rapids Rafting</h1>[m
+[32m+[m[32m            <p>[m
+[32m+[m[32m                We would love to hear from you. Contact Adventure Rapids Rafting[m
+[32m+[m[32m                for reservations, questions, or suggestions.[m
+[32m+[m[32m            </p>[m
+ [m
+[31m-            <article>[m
+[32m+[m[32m            <div class="company-details">[m
+ [m
+[31m-                <img src="images/rafting-client.jpg" alt="Rafting client">[m
+[32m+[m[32m                <div>[m
+[32m+[m[32m                    <h2>Adventure Rapids Rafting</h2>[m
+[32m+[m[32m                    <p>123 River Road</p>[m
+[32m+[m[32m                    <p>Moab, UT 84532</p>[m
+[32m+[m[32m                    <p>Phone: (555) 123-4567</p>[m
+[32m+[m[32m                    <p>Email: info@adventurerapids.com</p>[m
+[32m+[m[32m                </div>[m
+ [m
+[31m-                <p>[m
+[31m-                    Our mission is to provide exciting and safe white water[m
+[31m-                    rafting adventures while helping people enjoy nature,[m
+[31m-                    build confidence, and create unforgettable memories.[m
+[31m-                </p>[m
+[32m+[m[32m                <div>[m
+[32m+[m[32m                    <iframe[m
+[32m+[m[32m                      src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d24956.367387834915!2d-109.56528056439011!3d38.56727444991771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sAdventure%20Rapids%20Rafting%20123%20River%20Road%20Moab%2C%20UT%2084532%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Phone%3A%20(555)%20123-4567!5e0!3m2!1sen!2sng!4v1791035298993!5m2!1sen!2sng"[m
+[32m+[m[32m                      width="600" height="450" allowfullscreen loading="lazy"[m
+[32m+[m[32m                      referrerpolicy="strict-origin-when-cross-origin">[m
+[32m+[m[32m                    </iframe>[m
+[32m+[m[32m                </div>[m
+ [m
+[31m-            </article>[m
+[32m+[m[32m            </div>[m
+[32m+[m[32m        </section>[m
+ [m
+[31m-        </div>[m
+[31m-        <section class="history">[m
+[32m+[m[32m        <section class="employees">[m
+[32m+[m[32m            <h2>Meet Our Team</h2>[m
+ [m
+[31m-            <h2>History</h2>[m
+[32m+[m[32m            <figure>[m
+[32m+[m[32m                <img src="images/employee1.png" alt="Maaglant Kalu Ogba, General Manager">[m
+[32m+[m[32m                <figcaption>Maaglant Kalu Ogba — General Manager</figcaption>[m
+[32m+[m[32m            </figure>[m
+ [m
+[31m-            <p>[m
+[31m-                Adventure Rapids Rafting began with a small group of outdoor[m
+[31m-                enthusiasts who wanted to share their love of rivers and[m
+[31m-                adventure with others.[m
+[31m-            </p>[m
+[32m+[m[32m            <figure>[m
+[32m+[m[32m                <img src="images/employee2.png" alt="Harmony Kalu Ogba, Reservation Manager">[m
+[32m+[m[32m                <figcaption>Harmony Kalu Ogba — Reservation Manager</figcaption>[m
+[32m+[m[32m            </figure>[m
+ [m
+[31m-            <img src="images/rafting-client.jpg" alt="Rafting adventure on the river">[m
+[32m+[m[32m            <figure>[m
+[32m+[m[32m                <img src="images/employee3.png" alt="Ikechukwu Anyawu, Rafting Guide">[m
+[32m+[m[32m                <figcaption>Ikechukwu — Rafting Guide</figcaption>[m
+[32m+[m[32m            </figure>[m
+[32m+[m[32m        </section>[m
+ [m
+[31m-            <p>[m
+[31m-                Over the years, the company has grown while continuing to[m
+[31m-                focus on safety, teamwork, and memorable experiences. Today,[m
+[31m-                we welcome adventurers who want to experience the excitement[m
+[31m-                of white water rafting.[m
+[31m-            </p>[m
+[32m+[m[32m        <section class="contact-form">[m
+[32m+[m[32m            <h2>Send Us a Message</h2>[m
+ [m
+[31m-        </section>[m
+[32m+[m[32m            <form>[m
+ [m
+[31m-        <section class="adventures">[m
+[32m+[m[32m                <label for="name">Name:</label>[m
+[32m+[m[32m                <input type="text" id="name" name="name" required>[m
+ [m
+[31m-            <h2>Adventure Awaits You!</h2>[m
+[32m+[m[32m                <label for="email">Email:</label>[m
+[32m+[m[32m                <input type="email" id="email" name="email" required>[m
+ [m
+[31m-            <div class="adventure-gallery">[m
+[32m+[m[32m                <fieldset>[m
+[32m+[m[32m                    <legend>What is the purpose of your message?</legend>[m
+ [m
+[31m-                <figure>[m
+[31m-                    <img src="images/rafting-hero.jpg"[m
+[31m-                      alt="Los Dientes del Diablo rafting adventure">[m
+[31m-                    <figcaption>Los Dientes del Diablo</figcaption>[m
+[31m-                </figure>[m
+[32m+[m[32m                    <label>[m
+[32m+[m[32m                        <input type="radio" name="purpose" value="general" required>[m
+[32m+[m[32m                        General Inquiry[m
+[32m+[m[32m                    </label>[m
+ [m
+[31m-                <figure>[m
+[31m-                    <img src="images/rafting-client.jpg" alt="Big Mallard white water rafting">[m
+[31m-                    <figcaption>Big Mallard</figcaption>[m
+[31m-                </figure>[m
+[32m+[m[32m                    <label>[m
+[32m+[m[32m                        <input type="radio" name="purpose" value="reservation">[m
+[32m+[m[32m                        Reservation Question[m
+[32m+[m[32m                    </label>[m
+ [m
+[31m-                <figure>[m
+[31m-                    <img src="images/rafting-hero.jpg" alt="Half Day Adventure rafting trip">[m
+[31m-                    <figcaption>Half Day Adventure</figcaption>[m
+[31m-                </figure>[m
+[32m+[m[32m                    <label>[m
+[32m+[m[32m                        <input type="radio" name="purpose" value="suggestion">[m
+[32m+[m[32m                        Website Suggestion[m
+[32m+[m[32m                    </label>[m
+[32m+[m[32m                </fieldset>[m
+ [m
+[31m-                <figure>[m
+[31m-                    <img src="images/rafting-client.jpg" alt="River Rush rafting adventure">[m
+[31m-                    <figcaption>River Rush</figcaption>[m
+[31m-                </figure>[m
+[32m+[m[32m                <label for="message">Message:</label>[m
+[32m+[m[32m                <textarea id="message" name="message" rows="6" required></textarea>[m
+ [m
+[31m-                <figure>[m
+[31m-                    <img src="images/rafting-hero.jpg" alt="Thunder Rapids rafting adventure">[m
+[31m-                    <figcaption>Thunder Rapids</figcaption>[m
+[31m-                </figure>[m
+[32m+[m[32m                <label>[m
+[32m+[m[32m                    <input type="checkbox" name="newsletter">[m
+[32m+[m[32m                    Please subscribe me to the monthly newsletter[m
+[32m+[m[32m                </label>[m
+ [m
+[31m-            </div>[m
+[32m+[m[32m                <button type="submit">Send Message</button>[m
+ [m
+[32m+[m[32m            </form>[m
+         </section>[m
+ [m
+[31m-[m
+     </main>[m
+ [m
+     <footer>[m
+ [m
+[31m-        <p>[m
+[31m-            © 2026 Adventure Rapids Rafting | Kalu Ogba Okala[m
+[31m-        </p>[m
+[32m+[m[32m        <p>&copy; 2026 Adventure Rapids Rafting | Kalu Ogba Okala</p>[m
+ [m
+         <nav class="socialmedia">[m
+[31m-[m
+             <a href="https://facebook.com">[m
+                 <img src="images/facebook.svg" alt="Facebook">[m
+             </a>[m
+[36m@@ -132,7 +141,6 @@[m
+             <a href="https://instagram.com">[m
+                 <img src="images/instagram.svg" alt="Instagram">[m
+             </a>[m
+[31m-[m
+         </nav>[m
+ [m
+     </footer>[m
+[1mdiff --git a/wwr/contact.html b/wwr/contact.html[m
+[1mindex 7c19b1f..0b00c47 100644[m
+[1m--- a/wwr/contact.html[m
+[1m+++ b/wwr/contact.html[m
+[36m@@ -66,18 +66,19 @@[m
+                     <fieldset>[m
+                         <legend>What is the purpose of your message?</legend>[m
+ [m
+[31m-                        <label>[m
+[31m-                            <input type="radio" name="purpose" value="general" required>[m
+[32m+[m[32m                        <label for="general">[m
+[32m+[m[32m                            <input type="radio" id="general" name="purpose" value="general"[m
+[32m+[m[32m                              required>[m
+                             General Inquiry[m
+                         </label>[m
+ [m
+[31m-                        <label>[m
+[31m-                            <input type="radio" name="purpose" value="reservation">[m
+[32m+[m[32m                        <label for="reservation">[m
+[32m+[m[32m                            <input type="radio" id="reservation" name="purpose" value="reservation">[m
+                             Reservation Question[m
+                         </label>[m
+ [m
+[31m-                        <label>[m
+[31m-                            <input type="radio" name="purpose" value="suggestion">[m
+[32m+[m[32m                        <label for="suggestion">[m
+[32m+[m[32m                            <input type="radio" id="suggestion" name="purpose" value="suggestion">[m
+                             Website Suggestion[m
+                         </label>[m
+                     </fieldset>[m
+[36m@@ -85,13 +86,14 @@[m
+                     <label for="message">Message:</label>[m
+                     <textarea id="message" name="message" rows="6" required></textarea>[m
+ [m
+[31m-                    <label>[m
+[31m-                        <input type="checkbox" name="newsletter">[m
+[32m+[m[32m                    <label for="newsletter">[m
+[32m+[m[32m                        <input type="checkbox" id="newsletter" name="newsletter">[m
+                         Please subscribe me to the monthly newsletter[m
+                     </label>[m
+ [m
+                     <button type="submit">Send Message</button>[m
+                 </form>[m
+[32m+[m
+             </section>[m
+ [m
+         </section>[m
+[36m@@ -112,7 +114,7 @@[m
+                 </figure>[m
+ [m
+                 <figure>[m
+[31m-                    <img src="images/employee3.png" alt="Ikechukwu Anyawu, Rafting Guide">[m
+[32m+[m[32m                    <img src="images/employee3.png" alt="Ikechukwu Anyawu - Rafting Guide">[m
+                     <figcaption>Ikechukwu Anyawu — Rafting Guide</figcaption>[m
+                 </figure>[m
+ [m
+[1mdiff --git a/wwr/index.html b/wwr/index.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..111774a[m
+[1m--- /dev/null[m
+[1m+++ b/wwr/index.html[m
+[36m@@ -0,0 +1,157 @@[m
+[32m+[m[32m<!DOCTYPE html>[m
+[32m+[m[32m<html lang="en">[m
+[32m+[m
+[32m+[m[32m<head>[m
+[32m+[m[32m    <meta charset="UTF-8">[m
+[32m+[m[32m    <meta name="viewport" content="width=device-width, initial-scale=1.0">[m
+[32m+[m
+[32m+[m[32m    <meta name="description"[m
+[32m+[m[32m      content="Discover exciting white water rafting adventures with Adventure Rapids Rafting. Explore our trips and experience the river.">[m
+[32m+[m
+[32m+[m[32m    <meta name="author" content="Kalu Ogba Okala">[m
+[32m+[m
+[32m+[m[32m    <title>Adventure Rapids Rafting | Home</title>[m
+[32m+[m
+[32m+[m[32m    <link rel="stylesheet" href="styles/rafting.css">[m
+[32m+[m[32m</head>[m
+[32m+[m
+[32m+[m[32m<body>[m
+[32m+[m
+[32m+[m[32m    <header>[m
+[32m+[m[32m        <img src="images/rafting-logo.jpg" alt="Adventure Rapids Rafting logo">[m
+[32m+[m
+[32m+[m[32m        <nav>[m
+[32m+[m[32m            <ul>[m
+[32m+[m[32m                <li><a href="index.html">Home</a></li>[m
+[32m+[m[32m                <li><a href="about.html">About Us</a></li>[m
+[32m+[m[32m                <li><a href="trips.html">Trips</a></li>[m
+[32m+[m[32m                <li><a href="contact.html">Contact Us</a></li>[m
+[32m+[m[32m            </ul>[m
+[32m+[m[32m        </nav>[m
+[32m+[m[32m    </header>[m
+[32m+[m
+[32m+[m[32m    <main>[m
+[32m+[m
+[32m+[m[32m        <!-- HERO -->[m
+[32m+[m[32m        <section class="hero">[m
+[32m+[m
+[32m+[m[32m            <img src="images/rafting-hero.jpg" alt="White water rafting adventure on a river">[m
+[32m+[m
+[32m+[m[32m            <div class="hero-content">[m
+[32m+[m[32m                <h1>Adventure Awaits on the River</h1>[m
+[32m+[m
+[32m+[m[32m                <p>[m
+[32m+[m[32m                    Experience exciting white water rafting adventures[m
+[32m+[m[32m                    with Adventure Rapids Rafting.[m
+[32m+[m[32m                </p>[m
+[32m+[m
+[32m+[m[32m                <a href="trips.html">Explore Our Trips</a>[m
+[32m+[m[32m            </div>[m
+[32m+[m
+[32m+[m[32m        </section>[m
+[32m+[m
+[32m+[m
+[32m+[m[32m        <!-- PURPOSE / OFFERINGS -->[m
+[32m+[m[32m        <section class="home-grid">[m
+[32m+[m
+[32m+[m[32m            <div>[m
+[32m+[m[32m                <img src="images/rafting-client.jpg"[m
+[32m+[m[32m                  alt="Rafting client enjoying a river adventure">[m
+[32m+[m[32m            </div>[m
+[32m+[m
+[32m+[m[32m            <div>[m
+[32m+[m[32m                <h2>Experience the River</h2>[m
+[32m+[m
+[32m+[m[32m                <p>[m
+[32m+[m[32m                    Adventure Rapids Rafting provides exciting river[m
+[32m+[m[32m                    experiences for individuals, families, and groups.[m
+[32m+[m[32m                    Our goal is to help you enjoy nature while creating[m
+[32m+[m[32m                    unforgettable memories.[m
+[32m+[m[32m                </p>[m
+[32m+[m[32m            </div>[m
+[32m+[m
+[32m+[m[32m            <div>[m
+[32m+[m[32m                <h2>Adventure for Everyone</h2>[m
+[32m+[m
+[32m+[m[32m                <p>[m
+[32m+[m[32m                    Whether you are looking for an exciting challenge[m
+[32m+[m[32m                    or a relaxing introduction to rafting, we have[m
+[32m+[m[32m                    an adventure for you.[m
+[32m+[m[32m                </p>[m
+[32m+[m[32m            </div>[m
+[32m+[m
+[32m+[m[32m            <div>[m
+[32m+[m[32m                <img src="images/rafting-client.jpg"[m
+[32m+[m[32m                  alt="Rafter enjoying an outdoor river experience">[m
+[32m+[m[32m            </div>[m
+[32m+[m
+[32m+[m[32m        </section>[m
+[32m+[m
+[32m+[m
+[32m+[m[32m        <!-- CALL TO ACTION -->[m
+[32m+[m[32m        <section class="home-cta">[m
+[32m+[m
+[32m+[m[32m            <h2>Ready for Your Next Adventure?</h2>[m
+[32m+[m
+[32m+[m[32m            <p>[m
+[32m+[m[32m                Explore our rafting trips and find the experience[m
+[32m+[m[32m                that is right for you.[m
+[32m+[m[32m            </p>[m
+[32m+[m
+[32m+[m[32m            <a href="trips.html">View Our Trips</a>[m
+[32m+[m
+[32m+[m[32m        </section>[m
+[32m+[m
+[32m+[m
+[32m+[m[32m        <!-- NEWSLETTER -->[m
+[32m+[m[32m        <section class="newsletter">[m
+[32m+[m
+[32m+[m[32m            <h2>Join Our Newsletter</h2>[m
+[32m+[m
+[32m+[m[32m            <p>[m
+[32m+[m[32m                Receive updates about rafting adventures,[m
+[32m+[m[32m                special offers, and upcoming trips.[m
+[32m+[m[32m            </p>[m
+[32m+[m
+[32m+[m[32m            <form>[m
+[32m+[m
+[32m+[m[32m                <label for="newsletter-name">Name:</label>[m
+[32m+[m[32m                <input type="text" id="newsletter-name" name="name" required>[m
+[32m+[m
+[32m+[m[32m                <label for="newsletter-email">Email:</label>[m
+[32m+[m[32m                <input type="email" id="newsletter-email" name="email" required>[m
+[32m+[m
+[32m+[m[32m                <button type="submit">Subscribe</button>[m
+[32m+[m
+[32m+[m[32m            </form>[m
+[32m+[m
+[32m+[m[32m        </section>[m
+[32m+[m
+[32m+[m[32m    </main>[m
+[32m+[m
+[32m+[m
+[32m+[m[32m    <footer>[m
+[32m+[m
+[32m+[m[32m        <p>&copy; 2026 Adventure Rapids Rafting | Kalu Ogba Okala</p>[m
+[32m+[m
+[32m+[m[32m        <nav class="socialmedia">[m
+[32m+[m
+[32m+[m[32m            <a href="https://facebook.com">[m
+[32m+[m[32m                <img src="images/facebook.svg" alt="Facebook">[m
+[32m+[m[32m            </a>[m
+[32m+[m
+[32m+[m[32m            <a href="https://linkedin.com">[m
+[32m+[m[32m                <img src="images/linkedin.svg" alt="LinkedIn">[m
+[32m+[m[32m            </a>[m
+[32m+[m
+[32m+[m[32m            <a href="https://instagram.com">[m
+[32m+[m[32m                <img src="images/instagram.svg" alt="Instagram">[m
+[32m+[m[32m            </a>[m
+[32m+[m
+[32m+[m[32m        </nav>[m
+[32m+[m
+[32m+[m[32m    </footer>[m
+[32m+[m
+[32m+[m[32m</body>[m
+[32m+[m
+[32m+[m[32m</html>[m
+\ No newline at end of file[m
+[1mdiff --git a/wwr/styles/rafting.css b/wwr/styles/rafting.css[m
+[1mindex 58ab234..8880539 100644[m
+[1m--- a/wwr/styles/rafting.css[m
+[1m+++ b/wwr/styles/rafting.css[m
+[36m@@ -190,6 +190,19 @@[m [mfooter {[m
+     align-items: center;[m
+ }[m
+ [m
+[32m+[m[32mfooter .socialmedia {[m
+[32m+[m[32m    display: flex;[m
+[32m+[m[32m    justify-content: flex-end;[m
+[32m+[m[32m    align-items: center;[m
+[32m+[m[32m    gap: 15px;[m
+[32m+[m[32m    margin-left: auto;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32mfooter .socialmedia img {[m
+[32m+[m[32m    width: 40px;[m
+[32m+[m[32m    height: 40px;[m
+[32m+[m[32m}[m
+[32m+[m
+ /* SOCIAL MEDIA */[m
+ [m
+ .socialmedia {[m
+[36m@@ -503,4 +516,270 @@[m [mfooter .socialmedia {[m
+ footer .socialmedia img {[m
+     width: 40px;[m
+     height: 40px;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m/* HOME PAGE */[m
+[32m+[m
+[32m+[m[32m/* Home page content grid */[m
+[32m+[m[32m.home-grid {[m
+[32m+[m[32m    display: grid;[m
+[32m+[m[32m    grid-template-columns: 1fr 1fr;[m
+[32m+[m[32m    gap: 25px;[m
+[32m+[m[32m    align-items: center;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.home-grid > div {[m
+[32m+[m[32m    padding: 20px;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.home-grid img {[m
+[32m+[m[32m    width: 100%;[m
+[32m+[m[32m    height: 250px;[m
+[32m+[m[32m    object-fit: cover;[m
+[32m+[m[32m    display: block;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.home-grid h2 {[m
+[32m+[m[32m    margin-bottom: 10px;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m/* Home page call to action */[m
+[32m+[m[32m.home-cta {[m
+[32m+[m[32m    text-align: center;[m
+[32m+[m[32m    background-color: var(--accent1-color);[m
+[32m+[m[32m    margin-top: 20px;[m
+[32m+[m[32m    border-radius: 8px;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.home-cta h2 {[m
+[32m+[m[32m    margin-bottom: 10px;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.home-cta p {[m
+[32m+[m[32m    margin-bottom: 15px;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.home-cta a {[m
+[32m+[m[32m    display: inline-block;[m
+[32m+[m[32m    padding: 12px 25px;[m
+[32m+[m[32m    background-color: var(--primary-color);[m
+[32m+[m[32m    color: white;[m
+[32m+[m[32m    text-decoration: none;[m
+[32m+[m[32m    font-weight: bold;[m
+[32m+[m[32m    border-radius: 5px;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.home-cta a:hover {[m
+[32m+[m[32m    opacity: 0.85;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m/* Newsletter */[m
+[32m+[m[32m.newsletter {[m
+[32m+[m[32m    margin-top: 20px;[m
+[32m+[m[32m    background-color: var(--accent1-color);[m
+[32m+[m[32m    border-radius: 8px;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.newsletter h2 {[m
+[32m+[m[32m    margin-bottom: 10px;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.newsletter p {[m
+[32m+[m[32m    text-align: center;[m
+[32m+[m[32m    margin-bottom: 20px;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.newsletter form {[m
+[32m+[m[32m    max-width: 500px;[m
+[32m+[m[32m    margin: 0 auto;[m
+[32m+[m[32m    display: grid;[m
+[32m+[m[32m    gap: 10px;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.newsletter label {[m
+[32m+[m[32m    font-weight: bold;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.newsletter input {[m
+[32m+[m[32m    width: 100%;[m
+[32m+[m[32m    padding: 12px;[m
+[32m+[m[32m    border: 1px solid #999;[m
+[32m+[m[32m    border-radius: 5px;[m
+[32m+[m[32m    font-family: var(--body-font);[m
+[32m+[m[32m    font-size: 1rem;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.newsletter button {[m
+[32m+[m[32m    padding: 12px;[m
+[32m+[m[32m    background-color: var(--primary-color);[m
+[32m+[m[32m    color: white;[m
+[32m+[m[32m    border: none;[m
+[32m+[m[32m    border-radius: 5px;[m
+[32m+[m[32m    font-size: 1rem;[m
+[32m+[m[32m    font-weight: bold;[m
+[32m+[m[32m    cursor: pointer;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.newsletter button:hover {[m
+[32m+[m[32m    opacity: 0.85;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m/* HOME HERO TEXT FIX */[m
+[32m+[m
+[32m+[m[32m.hero-content {[m
+[32m+[m[32m    position: absolute;[m
+[32m+[m[32m    bottom: 30px;[m
+[32m+[m[32m    left: 30px;[m
+[32m+[m[32m    right: 30px;[m
+[32m+[m[32m    text-align: center;[m
+[32m+[m[32m    color: white;[m
+[32m+[m[32m    background-color: rgba(0, 0, 0, 0.7);[m
+[32m+[m[32m    padding: 25px;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.hero-content h1 {[m
+[32m+[m[32m    position: static;[m
+[32m+[m[32m    width: auto;[m
+[32m+[m[32m    padding: 0;[m
+[32m+[m[32m    margin-bottom: 10px;[m
+[32m+[m[32m    background-color: transparent;[m
+[32m+[m[32m    color: white;[m
+[32m+[m[32m    opacity: 1;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.hero-content p {[m
+[32m+[m[32m    color: white;[m
+[32m+[m[32m    margin-bottom: 10px;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.hero-content a {[m
+[32m+[m[32m    display: inline-block;[m
+[32m+[m[32m    padding: 10px 20px;[m
+[32m+[m[32m    background-color: var(--primary-color);[m
+[32m+[m[32m    color: white;[m
+[32m+[m[32m    text-decoration: none;[m
+[32m+[m[32m    font-weight: bold;[m
+[32m+[m[32m    border-radius: 5px;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.hero-content a:hover {[m
+[32m+[m[32m    opacity: 0.85;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m/* TRIPS PAGE INTRO */[m
+[32m+[m
+[32m+[m[32m.trips-intro {[m
+[32m+[m[32m    text-align: center;[m
+[32m+[m[32m    background-color: var(--accent1-color);[m
+[32m+[m[32m    border-radius: 8px;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.trips-intro h1 {[m
+[32m+[m[32m    margin-bottom: 10px;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.trips-intro p {[m
+[32m+[m[32m    max-width: 650px;[m
+[32m+[m[32m    margin: 0 auto 20px;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.trips-intro a {[m
+[32m+[m[32m    display: inline-block;[m
+[32m+[m[32m    padding: 12px 20px;[m
+[32m+[m[32m    background-color: var(--primary-color);[m
+[32m+[m[32m    color: white;[m
+[32m+[m[32m    text-decoration: none;[m
+[32m+[m[32m    font-weight: bold;[m
+[32m+[m[32m    border-radius: 5px;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.trips-intro a:hover {[m
+[32m+[m[32m    opacity: 0.85;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m/* TRIP CARDS */[m
+[32m+[m
+[32m+[m[32m.trips {[m
+[32m+[m[32m    display: grid;[m
+[32m+[m[32m    grid-template-columns: repeat(3, 1fr);[m
+[32m+[m[32m    gap: 20px;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.trips article {[m
+[32m+[m[32m    background-color: var(--accent1-color);[m
+[32m+[m[32m    padding: 15px;[m
+[32m+[m[32m    border-radius: 8px;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.trips article img {[m
+[32m+[m[32m    width: 100%;[m
+[32m+[m[32m    height: 180px;[m
+[32m+[m[32m    object-fit: cover;[m
+[32m+[m[32m    display: block;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.trips article h2 {[m
+[32m+[m[32m    margin: 15px 0 10px;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.trips article p {[m
+[32m+[m[32m    margin-bottom: 10px;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m/* TRIP TABLE */[m
+[32m+[m
+[32m+[m[32m.trip-table {[m
+[32m+[m[32m    margin-top: 20px;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.trip-table h2 {[m
+[32m+[m[32m    margin-bottom: 15px;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.trip-table table {[m
+[32m+[m[32m    width: 100%;[m
+[32m+[m[32m    border-collapse: collapse;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.trip-table th,[m
+[32m+[m[32m.trip-table td {[m
+[32m+[m[32m    border: 1px solid #999;[m
+[32m+[m[32m    padding: 12px;[m
+[32m+[m[32m    text-align: left;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.trip-table th {[m
+[32m+[m[32m    background-color: var(--primary-color);[m
+[32m+[m[32m    color: white;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.trip-table tr:nth-child(even) {[m
+[32m+[m[32m    background-color: var(--accent1-color);[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m/* TRIPS CALL TO ACTION */[m
+[32m+[m
+[32m+[m[32m.trips-cta {[m
+[32m+[m[32m    margin-top: 20px;[m
+[32m+[m[32m    text-align: center;[m
+[32m+[m[32m    background-color: var(--accent1-color);[m
+[32m+[m[32m    border-radius: 8px;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.trips-cta p {[m
+[32m+[m[32m    margin-bottom: 15px;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.trips-cta a {[m
+[32m+[m[32m    display: inline-block;[m
+[32m+[m[32m    padding: 12px 25px;[m
+[32m+[m[32m    background-color: var(--primary-color);[m
+[32m+[m[32m    color: white;[m
+[32m+[m[32m    text-decoration: none;[m
+[32m+[m[32m    font-weight: bold;[m
+[32m+[m[32m    border-radius: 5px;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.trips-cta a:hover {[m
+[32m+[m[32m    opacity: 0.85;[m
+ }[m
+\ No newline at end of file[m
+[1mdiff --git a/wwr/trips.html b/wwr/trips.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..b081b87[m
+[1m--- /dev/null[m
+[1m+++ b/wwr/trips.html[m
+[36m@@ -0,0 +1,204 @@[m
+[32m+[m[32m<!DOCTYPE html>[m
+[32m+[m[32m<html lang="en">[m
+[32m+[m
+[32m+[m[32m<head>[m
+[32m+[m[32m    <meta charset="UTF-8">[m
+[32m+[m[32m    <meta name="viewport" content="width=device-width, initial-scale=1.0">[m
+[32m+[m
+[32m+[m[32m    <meta name="description"[m
+[32m+[m[32m      content="Explore Adventure Rapids Rafting trips, river adventures, prices, durations, and difficulty levels.">[m
+[32m+[m
+[32m+[m[32m    <meta name="author" content="Kalu Ogba Okala">[m
+[32m+[m
+[32m+[m[32m    <title>Rafting Trips | Adventure Rapids Rafting</title>[m
+[32m+[m
+[32m+[m[32m    <link rel="stylesheet" href="styles/rafting.css">[m
+[32m+[m[32m</head>[m
+[32m+[m
+[32m+[m[32m<body>[m
+[32m+[m
+[32m+[m[32m    <header>[m
+[32m+[m[32m        <img src="images/rafting-logo.jpg" alt="Adventure Rapids Rafting logo">[m
+[32m+[m
+[32m+[m[32m        <nav>[m
+[32m+[m[32m            <ul>[m
+[32m+[m[32m                <li><a href="index.html">Home</a></li>[m
+[32m+[m[32m                <li><a href="about.html">About Us</a></li>[m
+[32m+[m[32m                <li><a href="trips.html">Trips</a></li>[m
+[32m+[m[32m                <li><a href="contact.html">Contact Us</a></li>[m
+[32m+[m[32m            </ul>[m
+[32m+[m[32m        </nav>[m
+[32m+[m[32m    </header>[m
+[32m+[m
+[32m+[m
+[32m+[m[32m    <main>[m
+[32m+[m
+[32m+[m[32m        <!-- PAGE INTRODUCTION -->[m
+[32m+[m[32m        <section class="trips-intro">[m
+[32m+[m
+[32m+[m[32m            <h1>Explore Our Rafting Trips</h1>[m
+[32m+[m
+[32m+[m[32m            <p>[m
+[32m+[m[32m                Choose an adventure that matches your interests and[m
+[32m+[m[32m                experience level. Our professional guides are ready[m
+[32m+[m[32m                to help you enjoy an unforgettable river experience.[m
+[32m+[m[32m            </p>[m
+[32m+[m
+[32m+[m[32m            <a href="contact.html">Contact Us to Plan Your Adventure</a>[m
+[32m+[m
+[32m+[m[32m        </section>[m
+[32m+[m
+[32m+[m
+[32m+[m[32m        <!-- TRIP DESCRIPTIONS -->[m
+[32m+[m[32m        <section class="trips">[m
+[32m+[m
+[32m+[m[32m            <article>[m
+[32m+[m
+[32m+[m[32m                <img src="images/rafting-client.jpg" alt="Rafters enjoying a white water adventure">[m
+[32m+[m
+[32m+[m[32m                <h2>Family River Adventure</h2>[m
+[32m+[m
+[32m+[m[32m                <p>[m
+[32m+[m[32m                    Enjoy a fun and scenic rafting experience designed[m
+[32m+[m[32m                    for families and beginners. Our guides provide[m
+[32m+[m[32m                    instruction and support while you experience the[m
+[32m+[m[32m                    beauty of the river.[m
+[32m+[m[32m                </p>[m
+[32m+[m
+[32m+[m[32m                <p>[m
+[32m+[m[32m                    <strong>Difficulty:</strong> Easy[m
+[32m+[m[32m                </p>[m
+[32m+[m
+[32m+[m[32m            </article>[m
+[32m+[m
+[32m+[m
+[32m+[m[32m            <article>[m
+[32m+[m
+[32m+[m[32m                <img src="images/rafting-hero.jpg" alt="Rafters navigating exciting white water">[m
+[32m+[m
+[32m+[m[32m                <h2>White Water Challenge</h2>[m
+[32m+[m
+[32m+[m[32m                <p>[m
+[32m+[m[32m                    Take your adventure to the next level with exciting[m
+[32m+[m[32m                    rapids and challenging sections of the river.[m
+[32m+[m[32m                    This trip is perfect for visitors looking for[m
+[32m+[m[32m                    more excitement.[m
+[32m+[m[32m                </p>[m
+[32m+[m
+[32m+[m[32m                <p>[m
+[32m+[m[32m                    <strong>Difficulty:</strong> Moderate[m
+[32m+[m[32m                </p>[m
+[32m+[m
+[32m+[m[32m            </article>[m
+[32m+[m
+[32m+[m
+[32m+[m[32m            <article>[m
+[32m+[m
+[32m+[m[32m                <img src="images/rafting-client.jpg" alt="Experienced rafters navigating a river">[m
+[32m+[m
+[32m+[m[32m                <h2>Extreme River Expedition</h2>[m
+[32m+[m
+[32m+[m[32m                <p>[m
+[32m+[m[32m                    Experience a demanding river adventure with[m
+[32m+[m[32m                    challenging rapids and an unforgettable outdoor[m
+[32m+[m[32m                    experience. This trip is recommended for[m
+[32m+[m[32m                    experienced rafters.[m
+[32m+[m[32m                </p>[m
+[32m+[m
+[32m+[m[32m                <p>[m
+[32m+[m[32m                    <strong>Difficulty:</strong> Advanced[m
+[32m+[m[32m                </p>[m
+[32m+[m
+[32m+[m[32m            </article>[m
+[32m+[m
+[32m+[m[32m        </section>[m
+[32m+[m
+[32m+[m
+[32m+[m[32m        <!-- TRIP TABLE -->[m
+[32m+[m[32m        <section class="trip-table">[m
+[32m+[m
+[32m+[m[32m            <h2>Available Trips</h2>[m
+[32m+[m
+[32m+[m[32m            <table>[m
+[32m+[m
+[32m+[m[32m                <thead>[m
+[32m+[m[32m                    <tr>[m
+[32m+[m[32m                        <th>Trip</th>[m
+[32m+[m[32m                        <th>Duration</th>[m
+[32m+[m[32m                        <th>Difficulty</th>[m
+[32m+[m[32m                        <th>Price</th>[m
+[32m+[m[32m                    </tr>[m
+[32m+[m[32m                </thead>[m
+[32m+[m
+[32m+[m[32m                <tbody>[m
+[32m+[m
+[32m+[m[32m                    <tr>[m
+[32m+[m[32m                        <td>Family River Adventure</td>[m
+[32m+[m[32m                        <td>2 Hours</td>[m
+[32m+[m[32m                        <td>Easy</td>[m
+[32m+[m[32m                        <td>$65</td>[m
+[32m+[m[32m                    </tr>[m
+[32m+[m
+[32m+[m[32m                    <tr>[m
+[32m+[m[32m                        <td>White Water Challenge</td>[m
+[32m+[m[32m                        <td>4 Hours</td>[m
+[32m+[m[32m                        <td>Moderate</td>[m
+[32m+[m[32m                        <td>$95</td>[m
+[32m+[m[32m                    </tr>[m
+[32m+[m
+[32m+[m[32m                    <tr>[m
+[32m+[m[32m                        <td>Extreme River Expedition</td>[m
+[32m+[m[32m                        <td>6 Hours</td>[m
+[32m+[m[32m                        <td>Advanced</td>[m
+[32m+[m[32m                        <td>$135</td>[m
+[32m+[m[32m                    </tr>[m
+[32m+[m
+[32m+[m[32m                </tbody>[m
+[32m+[m
+[32m+[m[32m            </table>[m
+[32m+[m
+[32m+[m[32m        </section>[m
+[32m+[m
+[32m+[m
+[32m+[m[32m        <!-- FINAL CALL TO ACTION -->[m
+[32m+[m[32m        <section class="trips-cta">[m
+[32m+[m
+[32m+[m[32m            <h2>Ready for an Adventure?</h2>[m
+[32m+[m
+[32m+[m[32m            <p>[m
+[32m+[m[32m                Have questions about our trips or want to make a reservation?[m
+[32m+[m[32m                Our team is ready to help.[m
+[32m+[m[32m            </p>[m
+[32m+[m
+[32m+[m[32m            <a href="contact.html">Contact Adventure Rapids Rafting</a>[m
+[32m+[m
+[32m+[m[32m        </section>[m
+[32m+[m
+[32m+[m[32m    </main>[m
+[32m+[m
+[32m+[m
+[32m+[m[32m    <footer>[m
+[32m+[m
+[32m+[m[32m        <p>&copy; 2026 Adventure Rapids Rafting | Kalu Ogba Okala</p>[m
+[32m+[m
+[32m+[m[32m        <nav class="socialmedia">[m
+[32m+[m
+[32m+[m[32m            <a href="https://facebook.com">[m
+[32m+[m[32m                <img src="images/facebook.svg" alt="Facebook">[m
+[32m+[m[32m            </a>[m
+[32m+[m
+[32m+[m[32m            <a href="https://linkedin.com">[m
+[32m+[m[32m                <img src="images/linkedin.svg" alt="LinkedIn">[m
+[32m+[m[32m            </a>[m
+[32m+[m
+[32m+[m[32m            <a href="https://instagram.com">[m
+[32m+[m[32m                <img src="images/instagram.svg" alt="Instagram">[m
+[32m+[m[32m            </a>[m
+[32m+[m
+[32m+[m[32m        </nav>[m
+[32m+[m
+[32m+[m[32m    </footer>[m
+[32m+[m
+[32m+[m[32m</body>[m
+[32m+[m
+[32m+[m[32m</html>[m
+\ No newline at end of file[m
