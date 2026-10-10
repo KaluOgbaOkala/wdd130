@@ -21,11 +21,11 @@ body {
     line-height: 1.6;
 }
 
-/* MAIN PAGE WIDTH */
 header,
 main,
 footer {
-    width: 840px;
+    width: 100%;
+    max-width: 840px;
     margin: 0 auto;
 }
 
@@ -345,30 +345,6 @@ footer .socialmedia img {
 
 .contact-form button:hover {
     opacity: 0.85;
-}
-
-/* TRIPS PAGE */
-
-.trips {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-}
-
-.trips article {
-    text-align: center;
-    padding: 15px;
-    background-color: var(--accent1-color);
-}
-
-.trips article img {
-    width: 100%;
-    height: 180px;
-    object-fit: cover;
-}
-
-.trips article h2 {
-    margin: 10px 0;
 }
 
 /* HOME PAGE HERO CONTENT */
@@ -782,4 +758,87 @@ footer .socialmedia img {
 
 .trips-cta a:hover {
     opacity: 0.85;
+}
+
+.team {
+    text-align: center;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.team h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.team-members {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.team-members figure {
+    margin: 0;
+}
+
+.team-members img {
+    width: 100%;
+    max-width: 280px;
+    height: 220px;
+    object-fit: cover;
+}
+
+.team-members figcaption {
+    margin-top: 0.75rem;
+    font-weight: bold;
+}
+
+.trip {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin: 2rem auto;
+    max-width: 1000px;
+    padding: 1rem;
+}
+
+.trip img {
+    width: 40%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.trip-info {
+    flex: 1;
+}
+
+/* RESPONSIVE TRIPS PAGE */
+
+@media screen and (max-width: 700px) {
+    .trips {
+        grid-template-columns: 1fr;
+    }
+
+    .trip-table {
+        overflow-x: auto;
+    }
+
+    header {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        gap: 15px;
+    }
+
+    header nav ul {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+    .trip-table th,
+    .trip-table td {
+        padding: 8px;
+    }
 }
